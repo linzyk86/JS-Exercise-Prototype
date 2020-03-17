@@ -112,10 +112,14 @@ Car.prototype.drive = function(distance){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+
+  1. Global - when in gloabl scope, 'this' is the window object.
+
+  2. Implicit binding - when calling a function using dot notiation, 'this' is whatever is before the dot.
+
+  3. New binding- using the New keyword this refers to that instance.
+
+  4. Explicit binding - 'this' is defined when using 'call' or 'apply' methods.
 */
 
 
